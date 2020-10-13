@@ -1,0 +1,276 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: salmon;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: tomato;
+}
+
+::-moz-selection {
+  color: blue;
+  background: yellow;
+}
+
+::selection {
+  color: black;
+  background: salmon;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .first {
+    order: 1;
+  }
+
+  .second {
+    order: 2;
+  }
+}
+
+#home-text {
+  padding-top: 170px;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  #home-text {
+    padding-top: 50px;
+  }
+}
+
+#home-p {
+  color: grey;
+}
+
+#home-button {
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  border-color: black;
+}
+
+#home-button:hover {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+#button-card {
+  margin: 0 auto;
+  display: block;
+  width: 70%;
+  background-color: black;
+  border: none;
+}
+
+#button-card:hover {
+  background-color: white;
+  color: black;
+}
+
+#button-collection {
+  margin: 0 auto;
+  display: block;
+  width: 250px;
+  font-size: 20px;
+  background-color: black;
+  border: none;
+}
+
+#button-collection:hover {
+  background-color: white;
+  color: black;
+}
+
+#card {
+  border: none;
+  padding-top: 30px;
+}
+
+.card-height {
+  height: 300px;
+}
+
+.card-text {
+  font-size: large;
+  color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+  #card {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+  }
+}
+
+.carousel-img {
+  width: 100% !important;
+  height: 600px;
+}
+
+.carousel-text {
+  color: black;
+}
+
+#icon-img {
+  margin-top: 50px;
+  margin-left: 18px;
+}
+
+.carousel-indicators {
+  margin-bottom: -35px;
+}
+
+#download-text {
+  font-size: 100px;
+}
+
+.buy-text {
+  font-size: 20px;
+  color: gray;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .center {
+    width: 100%;
+  }
+}
+
+#product-week {
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+#for-more-button {
+  color: yellow;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.subscribe-button {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 5px;
+  border-color: black;
+}
+
+.subscribe-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.email-input {
+  opacity: 0.4;
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.email-input:hover {
+  opacity: 1;
+  border-color: black;
+  background-color: black;
+  color: white;
+}
+
+#subscribe-section {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .email-input,
+  .subscribe-button {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .email-input {
+    width: 300px;
+  }
+}
+
+.info-h1 {
+  opacity: 0.5;
+  font-size: 20px;
+}
+
+.info-p {
+  font-size: 25px;
+}
+
+.fa {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.fa:hover {
+  color: black
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.bottomleft {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  float: left;
+  width: 50px;
+}
+
+.bottomright {
+  padding-right: 20px;
+  padding-bottom: 20px;
+  float: right;
+  width: 50px;
+}
